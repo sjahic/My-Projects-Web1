@@ -1,0 +1,131 @@
+ul{
+    list-style-type: none;
+
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    
+   }
+  
+li{
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  li a:hover {
+    background-color: #ffffff;
+  }
+  
+  .class1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+  }
+
+  .classbrand{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  
+
+  body{
+    background-color:  rgba(255, 206, 114, 0.895);
+}
+.parent {
+    height : 200vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    background-color: rgba(255, 255, 255, 0.895);
+    gap: 5px;
+}
+
+
+.parent > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px rgb(16, 4, 4);
+}
+
+
+
+
+#div1 {
+    background-color: white ;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
+
+
+#div2 {
+    background-color: white ;
+    grid-column: 1 / 2;
+    grid-row: 2 / 6;
+}
+#gif1 {
+    height: 100%;
+    width: 100%;
+}
+
+
+#div3 {
+    background-color: white;
+    grid-column: 2/ 4;
+    grid-row: 2 / 5;
+}
+#paragraf1{
+    font-size: 32px;
+    text-align: center;
+}
+
+
+  
+#div5 {
+    background-color: white;
+    grid-column: 2 / 4;
+    grid-row: 5 / 6;
+    background-image: url(bild11.png);
+    background-repeat: repeat;
+    background-size: 10%;
+
+}
+
+#div6 {
+    background-color: white ;
+    grid-column: 1 / 3;
+    grid-row: 6 / 10;
+}
+
+#paragraf2{
+    font-size: 32px;
+    text-align: center;
+}
+
+#div7{
+    background-color:white ;
+    grid-column: 3 / 4;
+    grid-row: 6 / 10;
+
+}
+
+#bild3 {
+    height: 100%;
+    width: 100%;
+}
+
+  
+#fotter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
